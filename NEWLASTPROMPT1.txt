@@ -1,0 +1,43 @@
+Create a modern web application using Next.js that:  
+
+- Takes a YouTube video URL as input
+- Extracts the transcript using the youtube-transcript API
+- Make sure when getting youtube-transcript API it also has the correct timecodes
+- Presents a clean, user-friendly interface  
+
+Core Features:  
+- Single page application with:  
+  - YouTube URL input field with validation  
+  - Loading state with progress indicator  
+  - Analysis results display  
+- Error handling for:  
+  - Invalid YouTube URLs  
+  - Videos without transcripts  
+  - API failures  
+
+UI Components:  
+- Main form with:  
+  - YouTube URL input with YouTube icon  
+  - Submit button with loading state  
+  - Progress indicator during processing 
+  - Black and white colors aesthetics with outline and stunning visuals with animations
+
+- Results display with:  
+  - Video analysis section  
+  - Reset button to analyze another video  
+  - Clean, responsive layout  
+
+Styling:  
+- Use Tailwind CSS for styling with:  
+  - Responsive design (mobile-first)  
+  - Modern, clean interface  
+  - Loading animations  
+  - Progress indicators  
+  - White background, minimalistic aesthetics but mainly focus on ShadCN like UI with neutral colors  
+
+Code:  
+- Use TypeScript for type safety  
+- Implement proper error handling  
+- Add loading states and user feedback  
+- Keep the UI clean and minimal  
+- Focus on user experience

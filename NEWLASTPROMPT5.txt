@@ -1,0 +1,13 @@
+I want to extend the functionality of the web-application and add another button next to "Extract Content"
+
+The new button is called "Get Topics"
+
+The functions of the button is to
+- Correctly analyze via DeepSeek AI the whole transcript. 
+- Divide the whole transcript and video into sections with correct timecodes
+- For example: 1. from 0:00-1:05 (The introduction - they talk about this; or this guy introduces himself or themselves) (And the whole summary of the section)
+- 2. from 5:34-12:34 (Adventure to japan - They talk about this) + (The whole summary of the section)
+- And you will do this to the whole video
+- Make sure you correclty name the sections and give thorough anaylises of the transcript with summary
+- Stay accurate to the main transcript and double check for mistakes.
+- Add loading bar with stunning animations

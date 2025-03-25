@@ -1,0 +1,26 @@
+Extend the existing web application's functionality using Next.js and integrate the DeepSeek AI API (API key stored securely in the .env file)
+
+And add a new button that says "Extract Content"
+
+New Functionality:
+- Utilize DeepSeek AI to intelligently analyze the extracted transcript from a given YouTube video URL.
+- Generate optimized scripts specifically tailored for short video clips (YouTube Shorts, TikTok, Instagram Reels).
+- You extract engaging, shareable, and high-potential content ideas from transcripts. You specialize in identifying moments that would perform well as short-form content on platforms like TikTok, Instagram Reels, and YouTube Shorts.
+- You create segment with headings with AI summary for each clip that capture the most compelling moments from the transcript.
+- Take a step-by-step approach to achieve optimal results by following these steps.
+User Interface and Presentation:
+- During the analysis process, use an elegant skeleton loader to indicate content loading.
+- Once generated, display scripts clearly, professionally, and in an easily readable format.
+
+Short Form Content Clip script length should be between 15-60 seconds.
+
+STEPS
+
+- Extract 5 to 10 of the most engaging, shareable, and high-potential short form content clip script ideas from the transcript.
+- Depending on the length of the original video, there should be at least one or two short form content clip scripts. 
+- Focus on moments with emotional impact, surprising insights, or valuable quick tips.
+- Ensure generated scripts have clear and logical start and end points, capturing engaging topics, logical reasoning, relevancy, and smooth connections.
+- Automatically identify and include only clips that are trendy, captivating, informative, intriguing, humorous, or possess qualities that effectively engage the audience.
+- Identify exact timestamp and timecodes of the transcript, from start to finish.
+- Give each clip a heading with its AI summary of the short form content and why it was chosen, give a logical reason with natural and conversational language.
+- Make sure you always use simple to understand language with great delivery and easy expressions

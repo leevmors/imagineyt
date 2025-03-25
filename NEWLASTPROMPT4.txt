@@ -1,0 +1,13 @@
+Instructions for the Deepseek AI while extracting content from the full transcript of the video.
+
+Create a instruction document file so that DeepSeek AI will read before generating the short form content clip scripts.
+
+- Extract 5 to 10 of the most engaging, shareable, and high-potential short form content clip script ideas from the transcript.
+- Depending on the length of the original video, there should be at least one or two short form content clip scripts. 
+- Focus on moments with emotional impact, surprising insights, or valuable quick tips.
+- Ensure generated scripts have clear and logical start and end points, capturing engaging topics, logical reasoning, relevancy, and smooth connections.
+- Automatically identify and include only clips that are trendy, captivating, informative, intriguing, humorous, or possess qualities that effectively engage the audience.
+- Identify exact timestamp and timecodes of the transcript, from start to finish.
+- Give each clip a heading with its AI summary of the short form content and why it was chosen, give a logical reason with natural and conversational language.
+- Make sure you always use simple to understand language with great delivery and easy expressions
+- Make sure the script actually has a start and an end. Make sure it doesn't start out of nowhere, and doesn't end so sudden without a logical end.

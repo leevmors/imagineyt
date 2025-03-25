@@ -1,0 +1,18 @@
+Define a Prisma model for storing Extract Content results.
+The result should be stored in JSON format.
+Store transcript analysis in the database via Prisma.
+Also, create a model for User, and assign transcript analysis, to the current user
+
+Frontend UI
+Add a "Save" button below the transcript analysis result
+When clicked, it should trigger the API request to save transcript analysis
+Show loading and success states on the button
+
+On the main page, below the video input box, create a visually appealing section to display all
+previously saved analyses. Fetch these saved analyses from the database and present them in an elegant,
+structured layout. Each analysis should be displayed as a clickable card or list item, ensuring clear readability.
+
+When a user clicks on Extract Content, open a well-designed modal that dynamically loads and presents
+Add a loading bar
+
+Also add a function so that user can download PDF file of the results of their choice (full transcript analysis or the just the short form content scripts)
