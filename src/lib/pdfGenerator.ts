@@ -39,7 +39,9 @@ export function generateFullTranscriptPDF(transcript: TranscriptItem[], videoTit
     const timeInSeconds = Math.floor(item.offset / 1000);
     const minutes = Math.floor(timeInSeconds / 60);
     const seconds = timeInSeconds % 60;
+    const durationInSeconds = Math.round(item.duration / 1000);
     const timeFormatted = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+    const timeWithDuration = `[${timeFormatted}] (${durationInSeconds}s)`;
     
     // Check if we need a new page
     if (y > 280) {
@@ -49,7 +51,7 @@ export function generateFullTranscriptPDF(transcript: TranscriptItem[], videoTit
     
     // Add timestamp and text
     doc.setFont("helvetica", 'bold');
-    doc.text(`[${timeFormatted}]`, 10, y);
+    doc.text(timeWithDuration, 10, y);
     doc.setFont("helvetica", 'normal');
     
     // Handle line wrapping for the transcript text

@@ -186,9 +186,10 @@ export function TranscriptDisplay({
     transcript.forEach(item => {
       // Add timestamp
       const timeFormatted = formatTime(item.offset);
+      const durationInSeconds = Math.round(item.duration / 1000);
       doc.setFontSize(10);
       doc.setTextColor(100, 100, 100);
-      doc.text(`${timeFormatted}`, 20, y);
+      doc.text(`${timeFormatted} (${durationInSeconds}s)`, 20, y);
       
       // Add text with word wrapping
       doc.setFontSize(11);

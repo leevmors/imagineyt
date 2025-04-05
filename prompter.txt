@@ -1,0 +1,4 @@
+## update
+
+1. Fix the loading UI screen, and its animation so it properly loads.
+2. Make sure that when i download PDF script, it also shows the seconds (for how many seconds does that particular transcript play)
