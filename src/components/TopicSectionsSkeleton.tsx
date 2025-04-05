@@ -55,7 +55,7 @@ export function TopicSectionsSkeleton() {
           <div className="flex flex-col items-center justify-center py-8">
             <div className="w-24 h-24 relative mb-6">
               <svg 
-                className="w-full h-full animate-spin-slow" 
+                className="w-full h-full animate-spin" 
                 viewBox="0 0 100 100" 
                 xmlns="http://www.w3.org/2000/svg"
               >

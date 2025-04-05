@@ -11,7 +11,7 @@ export function ContentClipSkeleton() {
       </div>
       
       <div className="h-2 bg-gray-200 dark:bg-gray-800 rounded-full mb-8 overflow-hidden">
-        <div className="h-full bg-gradient-to-r from-indigo-500 to-purple-600 animate-progress" 
+        <div className="h-full bg-gradient-to-r from-indigo-500 to-purple-600" 
              style={{ width: '90%', animation: 'progressAnimation 2s ease-in-out infinite alternate' }}></div>
       </div>
       
